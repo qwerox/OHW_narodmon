@@ -9,7 +9,6 @@ NAME = socket.gethostname().replace('-', '_')
 
 login_in_narodmon = 'you_login' #укажите свой логин на сайте narodmon.ru
 #NAME = 'One' # тут можно указать имя компьютера вручную
-TOKEN = ''
 now = str(datetime.now())
 hwmon = wmi.WMI(namespace="root\OpenHardwareMonitor")
 
